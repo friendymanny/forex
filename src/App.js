@@ -11,6 +11,8 @@ const API_URL = 'https://api.exchangeratesapi.io/latest?base=' + BASE_CURRENCY;
 //this can be configurable
 const TIMEOUT = 60000;
 
+
+
 class App extends Component {
 
   constructor() {
@@ -85,5 +87,6 @@ class App extends Component {
     );
   }
 }
+
 
 export default App;
